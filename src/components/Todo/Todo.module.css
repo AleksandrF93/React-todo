@@ -1,0 +1,43 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226 232 240);
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.liComplete {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(148 163 184);
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.row {
+    display: flex;
+}
+
+.text {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.textComplete {
+    margin-left: 8px;
+    cursor: pointer;
+    text-decoration-line: line-through;
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
